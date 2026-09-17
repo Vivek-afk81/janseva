@@ -1,0 +1,158 @@
+<mxfile host="app.diagrams.net" modified="2026-09-16T00:00:00.000Z" agent="GitHub Copilot" version="24.7.17">
+  <diagram id="level0" name="Level 0">
+    <mxGraphModel dx="1120" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="base"/>
+        <mxCell id="layer1" parent="base"/>
+        <mxCell id="title0" value="Level 0: Context Diagram" style="text;html=1;align=center;verticalAlign=middle;fontStyle=1;fontSize=18;" vertex="1" parent="layer1">
+          <mxGeometry x="210" y="20" width="350" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="citizen0" value="Citizen" style="shape=mxgraph.flowchart.terminator;whiteSpace=wrap;html=1;rounded=1;fillColor=#f5f5f5;strokeColor=#333333;fontSize=16;" vertex="1" parent="layer1">
+          <mxGeometry x="40" y="140" width="170" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="engineer0" value="Engineer" style="shape=mxgraph.flowchart.terminator;whiteSpace=wrap;html=1;rounded=1;fillColor=#f5f5f5;strokeColor=#333333;fontSize=16;" vertex="1" parent="layer1">
+          <mxGeometry x="40" y="260" width="170" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="supervisor0" value="Supervisor" style="shape=mxgraph.flowchart.terminator;whiteSpace=wrap;html=1;rounded=1;fillColor=#f5f5f5;strokeColor=#333333;fontSize=16;" vertex="1" parent="layer1">
+          <mxGeometry x="40" y="380" width="170" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="gemini0" value="Gemini AI API" style="shape=mxgraph.flowchart.terminator;whiteSpace=wrap;html=1;rounded=1;fillColor=#f5f5f5;strokeColor=#333333;fontSize=16;" vertex="1" parent="layer1">
+          <mxGeometry x="580" y="170" width="180" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="system0" value="Civic Issue Reporting System&#xa;0.0" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" vertex="1" parent="layer1">
+          <mxGeometry x="300" y="120" width="220" height="220" as="geometry"/>
+        </mxCell>
+        <mxCell id="e0_1" value="Issue reports" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;endFill=1;" edge="1" source="citizen0" target="system0" parent="layer1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e0_2" value="Issue status" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;endFill=1;" edge="1" source="system0" target="citizen0" parent="layer1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e0_3" value="Assignments" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;endFill=1;" edge="1" source="supervisor0" target="system0" parent="layer1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e0_4" value="Status updates" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;endFill=1;" edge="1" source="engineer0" target="system0" parent="layer1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e0_5" value="Issue details" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;endFill=1;" edge="1" source="system0" target="gemini0" parent="layer1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e0_6" value="Priority score" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;endFill=1;" edge="1" source="gemini0" target="system0" parent="layer1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="level1" name="Level 1">
+    <mxGraphModel dx="1410" dy="980" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="base2"/>
+        <mxCell id="layer2" parent="base2"/>
+        <mxCell id="title1" value="Level 1: Process Breakdown" style="text;html=1;align=center;verticalAlign=middle;fontStyle=1;fontSize=18;" vertex="1" parent="layer2">
+          <mxGeometry x="270" y="20" width="420" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="citizen1" value="Citizen" style="shape=mxgraph.flowchart.terminator;whiteSpace=wrap;html=1;rounded=1;fillColor=#f5f5f5;strokeColor=#333333;fontSize=16;" vertex="1" parent="layer2">
+          <mxGeometry x="40" y="350" width="160" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="engineer1" value="Engineer" style="shape=mxgraph.flowchart.terminator;whiteSpace=wrap;html=1;rounded=1;fillColor=#f5f5f5;strokeColor=#333333;fontSize=16;" vertex="1" parent="layer2">
+          <mxGeometry x="40" y="510" width="160" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="supervisor1" value="Supervisor" style="shape=mxgraph.flowchart.terminator;whiteSpace=wrap;html=1;rounded=1;fillColor=#f5f5f5;strokeColor=#333333;fontSize=16;" vertex="1" parent="layer2">
+          <mxGeometry x="40" y="670" width="160" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="gemini1" value="Gemini AI API" style="shape=mxgraph.flowchart.terminator;whiteSpace=wrap;html=1;rounded=1;fillColor=#f5f5f5;strokeColor=#333333;fontSize=16;" vertex="1" parent="layer2">
+          <mxGeometry x="1030" y="250" width="190" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="p1" value="1.0&#xa;Report Issue" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" vertex="1" parent="layer2">
+          <mxGeometry x="300" y="110" width="180" height="180" as="geometry"/>
+        </mxCell>
+        <mxCell id="p2" value="2.0&#xa;Predict Priority" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" vertex="1" parent="layer2">
+          <mxGeometry x="300" y="300" width="180" height="180" as="geometry"/>
+        </mxCell>
+        <mxCell id="p3" value="3.0&#xa;Assign Issue" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" vertex="1" parent="layer2">
+          <mxGeometry x="300" y="500" width="180" height="180" as="geometry"/>
+        </mxCell>
+        <mxCell id="p4" value="4.0&#xa;Update Status" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" vertex="1" parent="layer2">
+          <mxGeometry x="300" y="700" width="180" height="180" as="geometry"/>
+        </mxCell>
+        <mxCell id="p5" value="5.0&#xa;Sync Offline Data" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" vertex="1" parent="layer2">
+          <mxGeometry x="620" y="310" width="180" height="180" as="geometry"/>
+        </mxCell>
+        <mxCell id="store_firestore" value="Firestore&#xa;(Issues)" style="shape=mxgraph.flowchart.data;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=16;" vertex="1" parent="layer2">
+          <mxGeometry x="780" y="110" width="200" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="store_supabase" value="Supabase&#xa;(Images)" style="shape=mxgraph.flowchart.data;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=16;" vertex="1" parent="layer2">
+          <mxGeometry x="780" y="300" width="200" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="store_indexeddb" value="IndexedDB&#xa;(Offline Queue)" style="shape=mxgraph.flowchart.data;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=16;" vertex="1" parent="layer2">
+          <mxGeometry x="780" y="520" width="200" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="e1_1" value="Issue report" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;endFill=1;" edge="1" source="citizen1" target="p1" parent="layer2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e1_2" value="Issue data" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;endFill=1;" edge="1" source="p1" target="store_firestore" parent="layer2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e1_3" value="Image upload" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;endFill=1;" edge="1" source="p1" target="store_supabase" parent="layer2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e1_4" value="Issue details" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;endFill=1;" edge="1" source="store_firestore" target="p2" parent="layer2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e1_5" value="Issue metadata" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;endFill=1;" edge="1" source="p2" target="gemini1" parent="layer2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e1_6" value="Priority score" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;endFill=1;" edge="1" source="gemini1" target="p2" parent="layer2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e1_7" value="Priority result" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;endFill=1;" edge="1" source="p2" target="store_firestore" parent="layer2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e1_8" value="Assignment" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;endFill=1;" edge="1" source="supervisor1" target="p3" parent="layer2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e1_9" value="Assignment data" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;endFill=1;" edge="1" source="p3" target="store_firestore" parent="layer2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e1_10" value="Assigned issue" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;endFill=1;" edge="1" source="store_firestore" target="engineer1" parent="layer2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e1_11" value="Status update" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;endFill=1;" edge="1" source="engineer1" target="p4" parent="layer2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e1_12" value="Status change" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;endFill=1;" edge="1" source="p4" target="store_firestore" parent="layer2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e1_13" value="Status read" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;endFill=1;" edge="1" source="store_firestore" target="citizen1" parent="layer2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e1_14" value="Queued reports" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;endFill=1;" edge="1" source="store_indexeddb" target="p5" parent="layer2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e1_15" value="Synced issue" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;endFill=1;" edge="1" source="p5" target="store_firestore" parent="layer2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e1_16" value="Queued images" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;endFill=1;" edge="1" source="p5" target="store_supabase" parent="layer2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e1_17" value="Sync ack" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=classic;endFill=1;" edge="1" source="store_firestore" target="p5" parent="layer2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="decision-table" name="Decision Table">
+    <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="decision-base"/>
+        <mxCell id="decision-layer" parent="decision-base"/>
+        <mxCell id="decision-title" value="Civic Issue Reporting System: Issue Reporting Decision Table" style="text;html=1;align=center;verticalAlign=middle;fontStyle=1;fontSize=20;fontColor=#1f2937;" vertex="1" parent="decision-layer">
+          <mxGeometry x="80" y="30" width="1440" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="decision-table-shape" value="&lt;table border=&quot;1&quot; cellpadding=&quot;8&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot; style=&quot;border-collapse:collapse;font-size:12px;text-align:left;&quot;&gt;&lt;tr style=&quot;background-color:#1f4e78;color:#ffffff;font-weight:bold;&quot;&gt;&lt;td&gt;Rule&lt;/td&gt;&lt;td&gt;Authenticated?&lt;/td&gt;&lt;td&gt;Role&lt;/td&gt;&lt;td&gt;Fields valid?&lt;/td&gt;&lt;td&gt;Online?&lt;/td&gt;&lt;td&gt;Gemini?&lt;/td&gt;&lt;td&gt;System decision&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;R1&lt;/td&gt;&lt;td&gt;No&lt;/td&gt;&lt;td&gt;Any&lt;/td&gt;&lt;td&gt;Any&lt;/td&gt;&lt;td&gt;Any&lt;/td&gt;&lt;td&gt;Any&lt;/td&gt;&lt;td&gt;Reject submission and redirect to login.&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color:#fce4d6;&quot;&gt;&lt;td&gt;R2&lt;/td&gt;&lt;td&gt;Yes&lt;/td&gt;&lt;td&gt;Engineer/Supervisor&lt;/td&gt;&lt;td&gt;Any&lt;/td&gt;&lt;td&gt;Any&lt;/td&gt;&lt;td&gt;Any&lt;/td&gt;&lt;td&gt;Reject citizen report creation; role is not permitted.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;R3&lt;/td&gt;&lt;td&gt;Yes&lt;/td&gt;&lt;td&gt;Citizen&lt;/td&gt;&lt;td&gt;No&lt;/td&gt;&lt;td&gt;Any&lt;/td&gt;&lt;td&gt;Any&lt;/td&gt;&lt;td&gt;Reject and display validation errors.&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color:#e2f0d9;&quot;&gt;&lt;td&gt;R4&lt;/td&gt;&lt;td&gt;Yes&lt;/td&gt;&lt;td&gt;Citizen&lt;/td&gt;&lt;td&gt;Yes&lt;/td&gt;&lt;td&gt;Yes&lt;/td&gt;&lt;td&gt;Yes&lt;/td&gt;&lt;td&gt;Upload image, predict priority, save to Firestore, status Open.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;R5&lt;/td&gt;&lt;td&gt;Yes&lt;/td&gt;&lt;td&gt;Citizen&lt;/td&gt;&lt;td&gt;Yes&lt;/td&gt;&lt;td&gt;Yes&lt;/td&gt;&lt;td&gt;No&lt;/td&gt;&lt;td&gt;Save with default Medium priority and mark AI unavailable.&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color:#fff2cc;&quot;&gt;&lt;td&gt;R6&lt;/td&gt;&lt;td&gt;Yes&lt;/td&gt;&lt;td&gt;Citizen&lt;/td&gt;&lt;td&gt;Yes&lt;/td&gt;&lt;td&gt;No&lt;/td&gt;&lt;td&gt;Any&lt;/td&gt;&lt;td&gt;Store in IndexedDB as Pending Sync; retry on reconnect.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;R7&lt;/td&gt;&lt;td&gt;Yes&lt;/td&gt;&lt;td&gt;Citizen&lt;/td&gt;&lt;td&gt;Yes&lt;/td&gt;&lt;td&gt;Yes&lt;/td&gt;&lt;td&gt;Any&lt;/td&gt;&lt;td&gt;If image upload fails, retain locally and retry.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;R8&lt;/td&gt;&lt;td&gt;Yes&lt;/td&gt;&lt;td&gt;Citizen&lt;/td&gt;&lt;td&gt;Yes&lt;/td&gt;&lt;td&gt;Yes&lt;/td&gt;&lt;td&gt;Any&lt;/td&gt;&lt;td&gt;If Firestore write fails, retain in the local sync queue.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;R9&lt;/td&gt;&lt;td&gt;Yes&lt;/td&gt;&lt;td&gt;Engineer&lt;/td&gt;&lt;td&gt;N/A&lt;/td&gt;&lt;td&gt;Yes&lt;/td&gt;&lt;td&gt;N/A&lt;/td&gt;&lt;td&gt;View assigned issues, update status, and add notes.&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color:#d9eaf7;&quot;&gt;&lt;td&gt;R10&lt;/td&gt;&lt;td&gt;Yes&lt;/td&gt;&lt;td&gt;Supervisor&lt;/td&gt;&lt;td&gt;N/A&lt;/td&gt;&lt;td&gt;Yes&lt;/td&gt;&lt;td&gt;N/A&lt;/td&gt;&lt;td&gt;View all issues, assign engineers, update status, override priority.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;br&gt;&lt;b&gt;Post-condition:&lt;/b&gt; After successful synchronization, remove the IndexedDB entry and update the Firestore status to Open." style="shape=rectangle;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#ffffff;strokeColor=#7f8c8d;align=left;verticalAlign=top;spacing=0;" vertex="1" parent="decision-layer">
+          <mxGeometry x="60" y="100" width="1480" height="760" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
